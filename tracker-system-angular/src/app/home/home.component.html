@@ -1,0 +1,13 @@
+<div  class="section1" >
+       <label class="label">Device ID</label>
+       <input  #id placeholder="Enter device Id" required >
+       <label class="label">Start Time</label>
+       <input #stime placeholder="Enter Start time" required />
+       <label class="label">End Time</label>
+       <input #etime placeholder="Enter end time"  required />
+       <button type="submit" (click) ="getData(id.value,stime.value,etime.value)">Get Map</button>
+</div>
+       
+<div class="mapContainer">
+       <div id="map" style="height: 500px;"></div>
+</div>

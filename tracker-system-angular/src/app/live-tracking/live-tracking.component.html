@@ -1,0 +1,8 @@
+ <div class="live-tracking">
+    <input #id required name ="input" placeholder="Enter Device-Id" />
+    <button type="submit" (click)="getLiveTracking(id.value)">Track</button>
+ </div>
+
+ <div class="mapContainer">
+   <div id="map" style="height: 500px;"></div>
+</div>

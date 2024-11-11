@@ -1,0 +1,77 @@
+/* Styling the section1 container */
+.section1 {
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling the labels */
+  .section1 .label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+    margin-top: 15px;
+  }
+  
+  /* Styling the input fields */
+  .section1 input[type="text"],
+  .section1 input[type="datetime-local"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+  }
+  
+  .section1 input:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
+  /* Styling the submit button */
+  .section1 button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .section1 button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .section1 button[type="submit"]:active {
+    background-color: #3e8e41;
+  }
+  .mapContainer {
+    width: 100%; 
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd;
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+#map {
+    height: 100%; /* Full height of the container */
+    border-radius: 8px; /* Rounded corners for the map */
+}
+
+  

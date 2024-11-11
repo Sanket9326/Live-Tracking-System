@@ -1,0 +1,14 @@
+<div>
+  <form #id="ngForm" (ngSubmit)="getData(id.value)">
+    <label for="username">Email</label>
+    <input name="username" required ngModel #username="ngModel" />
+    
+    <label for="password">Password</label>
+    <input name="password" type="password" required ngModel #password="ngModel" />
+    
+    <button type="submit">Login</button>
+    
+  </form>
+  <button (click)="signUp(id.value)" type="submit">New Login</button>
+</div>
+
