@@ -33,7 +33,7 @@ The Live Tracking System is a comprehensive solution built using **Spring Boot**
 
 Clone the repository to your local machine using GitHub Desktop or the following Git command:
 
-```bash
+
 git clone https://github.com/yourusername/live-tracking-system.git
 2. Setting up the Backend
 Install Java and Maven if you haven't already.
@@ -46,34 +46,27 @@ Create a new MySQL database and user for the project.
 Update the application.properties or application.yml file in the src/main/resources folder to include your database credentials.
 Run the backend Spring Boot application:
 
-bash
-Copy code
+
 mvn spring-boot:run
 The backend API will now be running locally on port 8080.
 
 3. Setting up the Frontend
 Install Node.js and Angular CLI if you haven’t already:
 
-bash
-Copy code
+
 npm install -g @angular/cli
 Navigate to the frontend project folder and install dependencies:
 
-bash
-Copy code
 cd frontend
 npm install
 Run the Angular development server:
 
-bash
-Copy code
 ng serve
 The frontend will be available at http://localhost:4200.
 Python Script for Sending Data
 To simulate the tracking device, you can use a Python script that sends location data to the backend. Here's a simple example of how to do this:
 
-python
-Copy code
+
 import requests
 import time
 
@@ -97,6 +90,8 @@ Login: Use the /user/login API endpoint to authenticate users.
 Send Tracking Data: Use the /data/put endpoint to send device location data to the backend.
 Live Tracking: Use the /live/track endpoint to view live tracking data for devices.
 View Past Data: Use the /data/get endpoint to fetch location data from a given time range.
+
+
 6. API Endpoints
 User Endpoints
 Login: POST /user/login
@@ -133,13 +128,4 @@ Spring Boot and Angular for creating the framework for this system.
 Python for simulating the tracking device.
 markdown
 
-
----
-
-### Notes:
-1. **Replace placeholder URLs** (`https://github.com/yourusername/live-tracking-system.git`) with your actual GitHub repository URL.
-2. The **Python script** for sending data to the server is a simple example. You can modify it according to your actual device data format.
-3. Add any additional **dependencies** or **setup steps** based on your project's actual requirements.
-
-This **README.md** will help other users and developers understand your project, how to set it up, and how to use it. You can upload it along with the rest of your code to your GitHub repository.
 
